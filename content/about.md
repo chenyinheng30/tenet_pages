@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2023-11-09T15:49:31+08:00
-draft: true
+draft: false
 ---
 
 # About tenet.chat
