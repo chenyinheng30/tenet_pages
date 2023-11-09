@@ -46,14 +46,14 @@ iCalendar是一种通用的日历交换格式，很多软件和设备，比如go
 
 ![2023年国庆法定假期](/images/2023_vacation_example.png "2023_vacation_example.png")
 
-## 法定假期日历下载
+## 法定假期日历下载（订阅）
 
 - [2022年法定假期](/data/calendar-archives/chinese-public-holidays-2022.ics)
 - [2023年法定假期](/data/calendar-archives/chinese-public-holidays-2023.ics)
-- 2024年法定假期
+- [2024年法定假期](/data/calendar-archives/chinese-public-holidays-2024.ics)
 - 2025年法定假期预测
 
-## 中国农历下载
+## 中国农历下载（订阅）
 
 - 数据来源： [香港紫金山天文台公历与农历对照表](https://www.hko.gov.hk/sc/gts/time/conversion.htm)
 - 下载（订阅）链接： <https://raw.githubusercontent.com/infinet/lunar-calender/master/chinese_lunar_prev_year_next_year.ics>
