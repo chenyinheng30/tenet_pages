@@ -28,7 +28,7 @@ resources:
   - name: featured-image-preview
     src: featured-image-preview.jpg
 toc: true
-math: false
+math: true
 lightgallery: false
 password:
 message:
@@ -57,12 +57,14 @@ $$
 
 用归纳法可证得 $a_n$ 递增， $b_n$ 递减，并且 $a_n>0,\ b_n>0$. 可以得到 $\lim_{n\rightarrow\infty} a_n$ 存在.又
 
+{{< raw >}}
 $$
 \begin{aligned}
 a_{n+1}-b_{n+1} &\le  a_{n+1}-b_n=\frac{a_n+b_n}{2}-b_n=\frac{1}{2}(a_n-b_n) \\
 a_{n+1}-b_{n+1} &\le \frac{1}{2^n}(a_1-b_1)
 \end{aligned}
 $$
+{{< /raw >}}
 
 所以 $\lim_{n\rightarrow\infty} a_n-b_n$ 极限存在，得到 $\lim_{n\rightarrow\infty} a_n = \lim_{n\rightarrow\infty} b_n$ 称此极限为 $a_1,b_1$ 算术几何中值用 $\mu(a,b)$ 表示.
 
@@ -80,8 +82,20 @@ $$
 sin\phi=\frac{2asin\theta}{(a+b)+(a-b)sin^2\theta}
 $$
 
-另 $上式右边的分母=Y$ 得到[^1]
+另上式右边的分母=Y有以下关系可以简化计算
 
+{{< raw >}}
+$$
+\begin{aligned}
+    &[(a+b)+(a-b)sin\theta^2]^2-4a^2sin^2\theta= [(a+b)-(a-b)sin\theta^2]^2-4b^2sin^2\theta \\
+    &[(a+b)+(a-b)sin\theta^2]^2+[(a+b)-(a-b)sin\theta^2]^2=2[(a+b)^2+(a-b)^2sin^4\theta]
+\end{aligned}
+$$
+{{< /raw >}}
+
+即是
+
+{{< raw >}}
 $$
 \begin{aligned}
 cos\phi d\phi&=2a\frac{(a+b)-(a-b)sin^2\theta}{Y^2}cos\theta d\theta \\
@@ -89,6 +103,7 @@ cos\phi&=\frac{\sqrt{(a+b)^2-(a-b)^2sin^2\theta}}{Y}cos\theta \\
 \sqrt{a^2cos^2\phi+b^2sin^2\phi}&=a\frac{(a+b)-(a-b)sin^2\theta}{Y}\frac{d\theta}{\sqrt{(a+b)^2-(a-b)^2sin^2\theta}}
 \end{aligned}
 $$
+{{< /raw >}}
 
 得到
 
@@ -124,13 +139,4 @@ $$
 
 $$
 G=\frac{\pi}{2\mu(a,b)}
-$$
-
-[^1]: 以下的关系可以简化计算
-
-$$
-\begin{aligned}
-    &[(a+b)+(a-b)sin\theta^2]^2-4a^2sin^2\theta = [(a+b)-(a-b)sin\theta^2]^2-4b^2sin^2\theta \\
-    &[(a+b)+(a-b)sin\theta^2]^2+[(a+b)-(a-b)sin\theta^2]^2=2[(a+b)^2+(a-b)^2sin^4\theta]
-\end{aligned}
 $$
