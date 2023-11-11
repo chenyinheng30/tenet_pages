@@ -27,7 +27,7 @@ resources:
   - name: featured-image-preview
     src: featured-image-preview.jpg
 toc: true
-math: false
+math: true
 lightgallery: false
 password:
 message:
@@ -48,12 +48,13 @@ iCalendar是一种通用的日历交换格式，一般后缀为 ".ics" 很多软
 
 一般每年国庆后会发布下一年的 [《关于20XX年部分节假日安排的通知》](https://www.gov.cn/zhengce/content/202310/content_6911527.htm)，以下的法定节假日订阅源（除预测的外）就是根据相关通知制作的：
 
-- [2022年法定节假日](/data/calendar_archives/chinese_public_holidays_2022.ics)
-- [2023年法定节假日](/data/calendar_archives/chinese_public_holidays_2023.ics)
-- [2024年法定节假日](/data/calendar_archives/chinese_public_holidays_2024.ics)
-- 2025年法定节假日预测
+- [~~2022年法定节假日~~](/data/calendar_archives/chinese_public_holidays_2022.ics)
+- [~~2023年法定节假日~~](/data/calendar_archives/chinese_public_holidays_2023.ics)
+- [<big><big>**2024年法定节假日**</big></big>](/data/calendar_archives/chinese_public_holidays_2024.ics)
+- [2025年法定节假日预测](/data/calendar_archives/chinese_public_holidays_2025_forecast.ics)
+- [未完待续 $\dots$](/calendar)
 
-在 Thunderbird 上订阅的效果如下图
+在 Thunderbird 上<>订阅的效果如下图<>
 
 ![2023年部分国庆假期以及补班示例](/images/2023_vacation_example.png "2023年国庆")
 
@@ -68,4 +69,4 @@ iCalendar是一种通用的日历交换格式，一般后缀为 ".ics" 很多软
 不过由于中国科学院紫金山没有在网上方便获取的来源（至少我没找到）以下的农历来自香港紫金山。
 
 - 数据来源： [香港紫金山天文台公历与农历对照表](https://www.hko.gov.hk/sc/gts/time/conversion.htm)
-- 下载（订阅）链接： [前年、今年、下一年的农历公历对照](/data/calendar_archives/chinese_lunar_prev_year_next_year.ics)
+- 下载（订阅）链接： [<big><big>**前年、今年、下一年**</big>的农历公历对照</big>](/data/calendar_archives/chinese_lunar_prev_year_next_year.ics)
