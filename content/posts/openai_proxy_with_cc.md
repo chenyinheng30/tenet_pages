@@ -87,31 +87,24 @@ repost:
 
 然后点击「编辑代码」，将代码更改为：
 
-```json
-const TELEGRAPH_URL = 'https://api.openai.com';
-
+```typescript
 addEventListener('fetch', event => {
-  event.respondWith(handleRequest(event.request))
-})
+  event.respondWith(handleRequest(event.request));
+});
 
 async function handleRequest(request) {
+  // 构建新的请求地址
   const url = new URL(request.url);
-  url.host = TELEGRAPH_URL.replace(/^https?:\/\//, '');
+  url.hostname = 'api.openai.com'; // 替换为你的实际API地址
+  url.protocol = 'https'; // 如果需要使用HTTPS
 
-  const modifiedRequest = new Request(url.toString(), {
+  // 发送请求并返回响应
+  return fetch(new Request(url, request),
+  {
     headers: request.headers,
     method: request.method,
-    body: request.body,
-    redirect: 'follow'
+    body: request.body
   });
-
-  const response = await fetch(modifiedRequest);
-  const modifiedResponse = new Response(response.body, response);
-
-  // 添加允许跨域访问的响应头
-  modifiedResponse.headers.set('Access-Control-Allow-Origin', '*');
-
-  return modifiedResponse;
 }
 ```
 
