@@ -50,7 +50,7 @@ iCalendar是一种通用的日历交换格式，一般后缀为 ".ics" 很多软
 
 - [~~2022年法定节假日~~](/data/calendar_archives/chinese_public_holidays_2022.ics)
 - [~~2023年法定节假日~~](/data/calendar_archives/chinese_public_holidays_2023.ics)
-- [<big><big>**2024年法定节假日**</big></big>](/data/calendar_archives/chinese_public_holidays_2024.ics)
+- [<big><big>**2024年法定节假日**</big></big>](/data/calendar_archives/chinese_public_holidays.ics)
 - [2025年法定节假日预测](/data/calendar_archives/chinese_public_holidays_2025_forecast.ics)
 - [未完待续 $\dots$](/calendar)
 
