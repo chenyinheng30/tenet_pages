@@ -1,5 +1,5 @@
 ---
-title: "「置顶」稳定推送每年中国农历、最新法定节假日"
+title: "稳定推送「历年中国农历日历 - 最新法定节假日」"
 subtitle:
 date: 2023-11-09T18:01:53+08:00
 draft: false
@@ -54,7 +54,7 @@ iCalendar是一种通用的日历交换格式，一般后缀为 ".ics" 很多软
 - [2025年法定节假日预测](/data/calendar_archives/chinese_public_holidays_2025_forecast.ics)
 - [未完待续 $\dots$](/calendar)
 
-在 Thunderbird 上<>订阅的效果如下图<>
+在 Thunderbird 上订阅的效果如下图
 
 ![2023年部分国庆假期以及补班示例](/images/2023_vacation_example.png "2023年国庆")
 
