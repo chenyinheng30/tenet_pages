@@ -1,3 +1,3 @@
 # README
 
-个人小站: <https://tenet.chat/>
+个人小站: <https://blog.tenet.chat/>
